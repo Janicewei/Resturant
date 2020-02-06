@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	width: auto;
+	height: 100%;
+	background-image: url(../image/Classic_steak_tartare.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+li a {
+  display: block;
+  color: rgba(237,79,35,1.00);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+	color: antiquewhite;
+  background-color:rgba(237,79,35,1.00);
+}
+h1 {
+	font-size: 120px;
+	color: indianred;
+	text-align: center;
+	font-style: italic;
+}
+
+div.title{
+	width:50%;
+	margin-left: 25%;
+	background-color: rgba(247,245,245,0.6);
+}
+
+div img{
+	width:200px;
+	padding: 20px;
+}
+
+#product{
+	text-align: center;
+}
